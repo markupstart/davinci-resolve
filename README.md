@@ -1,6 +1,6 @@
 # Davinci Resolve 18.6.6 in Void Linux
 
-- Download Davinci Resolve, unzip the file and run the installed:
+- Download Davinci Resolve, unzip the file and run the installer:
 ```
 ./DaVinci_Resolve_Studio_18.6.6_Linux.run
 ```
