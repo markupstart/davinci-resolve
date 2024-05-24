@@ -1,4 +1,4 @@
-# davinci-resolve in Void Linux
+# Davinci Resolve 18.6.6 in Void Linux
 
 - To resolve issues with these type of errors "/usr/lib/libgdk_pixbuf-2.0.so.0: undefined symbol: g_task_set_static_name", do the following:
 
