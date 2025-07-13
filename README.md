@@ -1,4 +1,4 @@
-# Davinci Resolve 18.6.6 in Void Linux
+# Davinci Resolve 18.6.6 in Debian 13. You are going to want to install the rocm packages and have that set up so that davinci resolve can use it.
 
 - Download Davinci Resolve, unzip the file and run the installer:
 ```
