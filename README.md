@@ -2,7 +2,7 @@
 
 - Download Davinci Resolve, unzip the file and run the installer:
 ```
-./DaVinci_Resolve_Studio_18.6.6_Linux.run
+./DaVinci_Resolve_Studio_20.0_Linux.run
 
 The installer is going to complain about missing libraries. If it does, run this command:
 
