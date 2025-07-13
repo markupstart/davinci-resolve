@@ -12,10 +12,7 @@ mv /opt/resolve/libs/libgmodule-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/disabled/
 ```
-- You will also need to add glu in order for Davinci Resolve to launch:
 
-```
-sudo xbps-install glu
 ```
 - Davinci Resolve should now launch as expected.
 
