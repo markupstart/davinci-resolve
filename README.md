@@ -3,6 +3,7 @@
 - Download Davinci Resolve, unzip the file and run the installer:
 ```
 You may need to install libfuse2t64, if you are getting an error about missing fuse.
+
 ./DaVinci_Resolve_Studio_20.0_Linux.run
 
 The installer is going to complain about missing libraries. If it does, run this command:
