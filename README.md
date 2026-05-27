@@ -18,7 +18,12 @@ mv /opt/resolve/libs/libgmodule-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/disabled/
 ```
+Ensure that libglu1-mesa is installed on your system
+```
 sudo apt install libglu1-mesa
+
+```
+
 ```
 
 - Davinci Resolve should now launch as expected.
