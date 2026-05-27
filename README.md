@@ -16,7 +16,7 @@ mv /opt/resolve/libs/libgmodule-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/disabled/
 ```
-```
+
 Install the ALSA bridge and tools:
 ```
 sudo xbps-install -S alsa-pipewire alsa-utils
