@@ -1,4 +1,4 @@
-# Davinci Resolve 20/21 in Debian 13. You are going to want to install the rocm packages and have that set up so that davinci resolve can use it (with AMD Video Card).
+# Davinci Resolve 20/21 in Void Linux. You are going to want to compile the rocm packages and have that set up so that davinci resolve can use it (with AMD Video Card).
 
 - Download Davinci Resolve, unzip the file and run the installer:
 ```
@@ -18,13 +18,16 @@ mv /opt/resolve/libs/libgmodule-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libgio-2.0.so* /opt/resolve/libs/disabled/
 mv /opt/resolve/libs/libglib-2.0.so* /opt/resolve/libs/disabled/
 ```
-Ensure that libglu1-mesa is installed on your system
 ```
-sudo apt install libglu1-mesa
-
+Install the ALSA bridge and tools:
 ```
-
+sudo xbps-install -S alsa-pipewire alsa-utils
 ```
+Create a per-user ALSA default to PipeWire:
+```
+printf '%s\n' 'pcm.!default { type pipewire }' 'ctl.!default { type pipewire }' > ~/.asoundrc
+```
+Log out and back in (or restart your session).
 
 - Davinci Resolve should now launch as expected.
 
